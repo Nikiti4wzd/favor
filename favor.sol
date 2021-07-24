@@ -230,7 +230,7 @@ contract Ownable {
 }
 
 
-contract FAVL is IERC20, Ownable {
+contract FAVOR is IERC20, Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
     using Address for address;
