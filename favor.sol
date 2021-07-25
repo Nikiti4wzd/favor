@@ -250,7 +250,7 @@ contract FAVOR is IERC20, Ownable {
     constructor () public {
         _decimals = 18;
         _cap = 100000000 * uint(10) ** _decimals;
-        _totalSupply = 1500000 * uint(10) ** _decimals;
+        _totalSupply = 5000000 * uint(10) ** _decimals;
         _name = "Favor";
         _symbol = "FAVOR";
         _balances[owner()] = _totalSupply;
